@@ -21,7 +21,7 @@ build:
     - echo "true"
 
   pre_ci_boot:
-    image_name: harsh157/sample_node
+    image_name: kanthchandra/sample_node
     image_tag: latest
     pull: false
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
