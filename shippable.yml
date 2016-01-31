@@ -36,7 +36,3 @@ build:
   smoke_test:
     - sudo ls /
 
-deploy:
-  pre_build:
-    - ls
-    - ls -al
