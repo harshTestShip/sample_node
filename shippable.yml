@@ -35,7 +35,7 @@ build:
 
 integrations:
   notification:
-    - integrationName: "harsh-slack"
+    - integrationName: harsh-slack
       type: slack
       recipients:
         - random
