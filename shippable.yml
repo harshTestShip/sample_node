@@ -18,10 +18,10 @@ env:
 
 build:
   pre_ci:
-    - echo "true"
+    - docker build -t=harsh157/sample_node .
 
   pre_ci_boot:
-    image_name: kanthchandra/sample_node
+    image_name: harsh157/sample_node
     image_tag: latest
     pull: false
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
@@ -31,8 +31,6 @@ build:
     - ls -al
 
   post_ci:
-    - echo "true"
+    - docker push harsh157a/sample_node
 
-  smoke_test:
-    - sudo ls /
 
