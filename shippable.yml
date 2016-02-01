@@ -31,14 +31,7 @@ build:
     - ls -al
 
   post_ci:
-    - docker push harsh157/sample_node
+    - echo "true"
 
-integrations:
-  hub:
-    - integrationName: harsh
-      type: docker
-      branches:
-        only:
-          - master
 
 
