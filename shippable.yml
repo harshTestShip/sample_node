@@ -31,6 +31,6 @@ build:
     - ls -al
 
   post_ci:
-    - docker push harsh157a/sample_node
+    - docker push harsh157/sample_node
 
 
