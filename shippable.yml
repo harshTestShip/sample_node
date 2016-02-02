@@ -7,25 +7,16 @@ node_js:
   - 0.12
 
 env:
-  secure: Maj9NY0qACWpXL5BdwMpqGnRty8UqkupKoa7eUBE7QO9IAVqpchxKMM5jdOxPX9wDrzOpjMBRqfFPoIO4MwU0JOZicn+iKy2YlrEoXTN8O1E4dUYFABP7fkWI6pGhVotuL3buYlyLWRtmPST/VL/4h8NyYK3ZbmwMXzIljrx094F5dZiVObv4XFy3Dhn2Ya5AE49tpAyjb2jzjIacadvDQ6nQ9U4O8AKwvrn+Li5L6eBSbRPJNSjLnTXvBw99J+FrO01/PAkSOze7X4gc7bHMt6OrdSqTXSl13l+WIVXGOU0RMJ97g28+LayzSS+9JCfkCo/doR1hwlNhAQ+VPT2pg==
+  global:
+    - secure: Maj9NY0qACWpXL5BdwMpqGnRty8UqkupKoa7eUBE7QO9IAVqpchxKMM5jdOxPX9wDrzOpjMBRqfFPoIO4MwU0JOZicn+iKy2YlrEoXTN8O1E4dUYFABP7fkWI6pGhVotuL3buYlyLWRtmPST/VL/4h8NyYK3ZbmwMXzIljrx094F5dZiVObv4XFy3Dhn2Ya5AE49tpAyjb2jzjIacadvDQ6nQ9U4O8AKwvrn+Li5L6eBSbRPJNSjLnTXvBw99J+FrO01/PAkSOze7X4gc7bHMt6OrdSqTXSl13l+WIVXGOU0RMJ97g28+LayzSS+9JCfkCo/doR1hwlNhAQ+VPT2pg==
+    
   matrix:
     - M1=ONE
 
 build:
-  pre_ci:
-    - docker build -t=harsh157/sample_node .
-
-  pre_ci_boot:
-    image_name: harsh157/sample_node
-    image_tag: latest
-    pull: false
-    options: '--privileged=true --net=bridge -e BOO=false'
-
   ci:
     - ps -eax
     - ls -al
     - echo "$*FOO" 
 
-  post_ci:
-    - echo "true"
 
