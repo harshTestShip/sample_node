@@ -34,7 +34,7 @@ build:
     - echo "true"
 
 integrations:
-  notification:
+  notifications:
     - integrationName: harsh-slack
       type: slack
       recipients:
