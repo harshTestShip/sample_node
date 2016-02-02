@@ -9,6 +9,7 @@ node_js:
 env:
   global:
     - FOO=BAR
+    - secure: O3fpOFmuGNXfA+smLTCvjkepBLC/iPmwjpu35+HD3cOpBRwv9UcMrx5KTiKwb/KmS1TI6SLRYCy/MqERvkOwGkOYC3yzvLL4Jv3tHTeg8ao303sZeaZYlX81YvS93jKurjE7imwLqcil6VZWTjazQ3kJUd8UtUf8tXbb7tddyRfOtpjDgkVHSmHtKuiykbY7j2Y7kRypVwspdcvcHlnAvq39CxLTxCtnX+rTMGD4WJOzNJ9Nid8uUL6jyKK0ei06nzDrDwR0JIIN0xprvPERWSODeP60gShesY34AV2S6l03w5fOYnT3h7+CZqk2PcJTVJ89TkxG94Vt5xuSZlkLZg==
     
   matrix:
     - M1=ONE
