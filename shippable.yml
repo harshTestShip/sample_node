@@ -35,19 +35,10 @@ build:
 
 integrations:
   notifications:
-    - integrationName: harsh-slack
-      type: slack
-      recipients:
-        - "#random"
-      on_start: always
-      on_success: always
-      on_failure: always
-      on_pull_request: always
-  
-  notifications:
     - integrationName: irc
       type: irc
       recipients:
         - "chat.efnet.org#shipTest"
       on_start: always
       on_success: always
+
