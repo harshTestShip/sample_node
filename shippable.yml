@@ -8,7 +8,6 @@ node_js:
 
 env:
   global:
-    - secure: rXPBN/febRy0bDMtM3zT4/N/O9LSHmqeEKXqhcv3/4WT+/wZ8sBSxZ/1VsnI+TaJnpag8/wIhrPz2yRwgiFDelUCweBXH5hakyDYJi3JecnwTo2XWiKGUPASGaT6cWQ689NYHQP27DRKm3gDAvSyI1Yy/vdvnaz34nFCyZB6YdX1RbXKSSedFjE45sfc5pwNmHD98EPkUceAjX+LohP7c9X69ncR2zIpgQg/KJcKk1bosj+bS2B8U2FKdpMG+7AD6n5gNoNzevPIUN6qdMLc0L/fF/gIVX3x7wVvUxG3cWcnlfOunbt8kueO1O5/OIG5//HFSQl1mbg3iSW8rC/YrQ==
     - secure: wBr+BV1hhTYvXmty61wvpINwXXWruiGdozRJI83dbamDNiotFmVUHBYeFzJfh226mEbp/mbj/a5U7mz0HQiLtc+Ezaxd51X26Wo4iiYdIMH6ErXVejqJKul/nCmWDiO+YT7J7K5Fr9lLVMMfczMirIJyxDhnlzeYPqXQmf3wuWg+P7hwfWLG8Fy/VYAxdH0dnxV4MbFINlWLsFjhm0kGRK5n9Gg8OWdumnvA7vMq7vT8XKIpFC2xhqmWAOiJy8w9Vwn88md3BFi3yzk936IYdExQeSuYbbuoiLQ+5k5XRx/GR0Tvdks3KYXT56BfrHxqMj8mpVvDovQX4Yp0GTOchA==
   matrix:
     - M1=ONE
