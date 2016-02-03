@@ -8,7 +8,8 @@ node_js:
 
 env:
   global:
-    - secure: wBr+BV1hhTYvXmty61wvpINwXXWruiGdozRJI83dbamDNiotFmVUHBYeFzJfh226mEbp/mbj/a5U7mz0HQiLtc+Ezaxd51X26Wo4iiYdIMH6ErXVejqJKul/nCmWDiO+YT7J7K5Fr9lLVMMfczMirIJyxDhnlzeYPqXQmf3wuWg+P7hwfWLG8Fy/VYAxdH0dnxV4MbFINlWLsFjhm0kGRK5n9Gg8OWdumnvA7vMq7vT8XKIpFC2xhqmWAOiJy8w9Vwn88md3BFi3yzk936IYdExQeSuYbbuoiLQ+5k5XRx/GR0Tvdks3KYXT56BfrHxqMj8mpVvDovQX4Yp0GTOchA==
+    - FOO=BAR
+    - BOO=FAR
   matrix:
     - M1=ONE
 
