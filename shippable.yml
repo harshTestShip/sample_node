@@ -9,7 +9,7 @@ node_js:
 env:
   global:
     - FOO=BAR
-    - "*SSS = *abc"
+    - MOO=ABC
   matrix:
     - M1=ONE
 
