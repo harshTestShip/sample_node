@@ -38,7 +38,7 @@ integrations:
     - integrationName: chetan-slack
       type: slack
       recipients:
-        - "#testissues"
+        "#testissues"
       on_start: always
       on_success: always
       on_failure: always
