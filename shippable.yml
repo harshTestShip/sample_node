@@ -11,7 +11,7 @@ env:
     - FOO=BAR
     - BOO=FAR
   matrix:
-    - M1=ONE
+     M1=ONE
 
 build:
   ci:
