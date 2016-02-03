@@ -38,7 +38,7 @@ integrations:
     - integrationName: irc
       type: irc
       recipients:
-        - "chat.efnet.org#shipTest"
+        - "chat.freenode.net#shipTest"
       on_start: always
       on_success: always
 
