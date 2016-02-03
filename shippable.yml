@@ -8,8 +8,8 @@ node_js:
 
 env:
   global:
-    - "*FOO=*BAR"
-    - FSS=BASS
+    - secure: nIV0ulj/pg8r3Rif3fisnMx0CL8JsDykysuQM930LIRMgnZx4ckEnPbHE/vu8Gg9jP87cyVqOsUjbYTnOUYgrcm6vjUtpC0HQx+Tt2sG6SE9su9vtzLpJpaz72il9NtWGJWY868Oum5RxjxUQzKsoljZ80DP0AVc67DNhBi/qERl6MTxgqvlvMeoZuRcPB1ifKRkF6EHJCuisjMl/AtJkwTJHqpmjzzujKy72WKrLxWGhTEfDktMbZjnwwFLmRkrmoOFx2AXfp71Y0lmg95j/gviwzhHEAuQAzc7Zi6zlbLDSo2EVkPdeneaYEq5eBf8S6od3q19dp5Oo38A2b+tEg==
+    - secure: jW8uz7B4yEUStqd0iMOLKOPMRbniakof1hhJV69wQ2Yo4lHRcc1L74lbcKB5NWv36K/sjJunD87/wu1C244BtLZJBWbWjD2XBU0Ut+pJoDZesQ543QEjy4A/EYmP6QbKGC4ZMA2iUvD8+6o4934c1AZY7MkkgSRFmZXRmJJYKOc4ONHgABIa0bKx2b6MPXfbrBmTtjRsxjJTWBXBx68//iiiZSkuIojrEUpVaLQAGJvrNprxY5Xgu3COxf3gnOaixQggoGMFQorlrQ5lhPklWUUg1hg/TnqISlPp02gVbVj68cqjklWzwyOINMZiHYPdAVZnGM6s4pkB/MV2FZvJcg==
   matrix:
     - M1=ONE
 
