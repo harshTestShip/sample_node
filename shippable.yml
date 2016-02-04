@@ -35,11 +35,10 @@ build:
 
 integrations:
   notifications:
-    - integrationName: chetan-slack
+    - integrationName: harsh-slack
       type: slack
       recipients:
-        "#testissues"
-        "#abcd"
+        - "#random"
       on_start: always
       on_success: always
       on_failure: always
