@@ -33,14 +33,4 @@ build:
   post_ci:
     - echo "true"
 
-integrations:
-  notifications:
-    - integrationName: harsh-slack
-      type: slack
-      recipients:
-        - "#random"
-      on_start: always
-      on_success: always
-      on_failure: always
-      on_pull_request: always
 
