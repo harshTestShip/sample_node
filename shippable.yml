@@ -28,7 +28,7 @@ build:
   ci:
     - ps -eax
     - ls -al
-    - sleep 30m
+    - sleep 105m
 
   post_ci:
     - echo "true"
