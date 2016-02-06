@@ -28,7 +28,7 @@ build:
   ci:
     - ps -eax
     - ls -al
-    - bacd
+    - sleep 30m
 
   post_ci:
     - echo "true"
