@@ -8,7 +8,6 @@ node_js:
 
 env:
   global:
-    - secure: Urt0gM1rkjx2icZhNLqYqFgHmCTqsRul+lCuFom/cPT57+IJro5w+YJmb7meAHayLXEheuFEAyMSNDl6rgMhfC8wGWsiItktLTgPzhwYwffVVCEPAoqOue+B+HivJZh+h+gxsKKfdYm39/Q4gIQ03f9De2sFZdjXwD2TulNR4w78yBxsRQJ7iCqdqoxL8fjfdhufcEvCUDCdE7zP/A8fcl695HWSCaonQ980jnNfhLSpDU2lq0bFona3Eoyebb2m7dYzG01zbLM6Q5APKaEQSH8C942PHSF6svBc23QA0iEHGJg6CxjuhkI5e0L/N359Wmf7C03t+fXHuJJ4TYPx8g==
     - BOO=FAR
   matrix:
     - secure: Urt0gM1rkjx2icZhNLqYqFgHmCTqsRul+lCuFom/cPT57+IJro5w+YJmb7meAHayLXEheuFEAyMSNDl6rgMhfC8wGWsiItktLTgPzhwYwffVVCEPAoqOue+B+HivJZh+h+gxsKKfdYm39/Q4gIQ03f9De2sFZdjXwD2TulNR4w78yBxsRQJ7iCqdqoxL8fjfdhufcEvCUDCdE7zP/A8fcl695HWSCaonQ980jnNfhLSpDU2lq0bFona3Eoyebb2m7dYzG01zbLM6Q5APKaEQSH8C942PHSF6svBc23QA0iEHGJg6CxjuhkI5e0L/N359Wmf7C03t+fXHuJJ4TYPx8g==
