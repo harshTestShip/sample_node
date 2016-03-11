@@ -18,7 +18,7 @@ env:
 build:
 
   pre_ci:
-    - docker build --rm -t harsh157/sample_node:tip
+    - docker build --rm -t harsh157/sample_node:tip .
 
   ci:
     - ps -eax
