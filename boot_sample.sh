@@ -1,3 +1,3 @@
-cd src/
+cd /src/
 
 node index.js
