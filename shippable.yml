@@ -17,8 +17,6 @@ env:
 
 build:
 
-  pre_ci:
-    - docker build --rm -t harsh157/sample_node:tip .
 
   ci:
     - ps -eax
@@ -26,12 +24,4 @@ build:
 
   post_ci:
     - echo "true"
-    
-  on_success:
-    - docker push harsh157/sample_node:tip
 
-
-integrations:
-  hub:
-    - integrationName: "harsh"
-      type: "docker"
